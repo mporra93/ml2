@@ -8,16 +8,9 @@ import mlflow
 from mlflow.client import MlflowClient
 
 import os
-import sklearn
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.svm import SVC
-from sklearn.linear_model import LogisticRegression
+import sklearn 
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
-import numpy  as np
-from numpy import random as rd
-from matplotlib import pyplot as plt
-
+from sklearn.model_selection import train_test_split 
 
 from sklearn import svm, datasets
 from sklearn.model_selection import GridSearchCV
