@@ -4,7 +4,7 @@ from mlflow.client import MlflowClient
 import os
 
 #This will be used in the next class
-os.chdir('/home/ml2/aprendizaje_maquina_II/Clase 5')
+os.chdir('/home/ml2/')
 
 model_registry_uri = '/mlruns.db'
 mlflow.set_tracking_uri('sqlite:///mlruns.db')
