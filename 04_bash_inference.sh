@@ -1,11 +1,5 @@
 curl http://0.0.0.0:5000/invocations -H 'Content-Type: application/json' -d '{
   "dataframe_split": {
-      "data": [[10, 10, 10,10], [0,0, 0, 0]]
+    "data": [[0.823000, 0.576, 168667, 0.108, 0, 5, 0, -12.435, 1, 0.0675, 1, 4, 0.600], [0.823000, 0.576, 168667, 0.108, 0, 5, 0, -12.435, 1, 0.0675, '011', 4, 0.600]]
   }
 }'
-
-# curl http://35.247.231.146:5000/invocations -H 'Content-Type: application/json' -d '{
-#   "dataframe_split": {
-#       "data": [[10, 10, 10,10], [0,0, 0, 0]]
-#   }
-# }'
